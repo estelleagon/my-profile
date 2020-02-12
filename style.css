@@ -1,0 +1,138 @@
+body {
+	color: rgb(40, 40, 40);
+	background: rgb(225,239,246,0.2);
+	font-size: 15px;
+	line-height: 1.6;
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: center;
+}
+
+
+h1,h2,h3 {
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 1px;
+
+}
+
+h1{
+	color: #150578;
+	font-weight: lighter;
+	font-size: 30px
+	}
+
+h2 {
+	color: #5C7AFF;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+h3{
+	color:#150578;
+}
+
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.img_circle{
+	border-radius: 50%;
+}
+
+.p_margin{
+	margin-bottom:40px;
+
+}
+
+.btn {
+	text-decoration: none;
+	padding:15px 30px;
+	background-color: #AA4465;
+	border-radius: 6px;
+	font-weight: bolder;
+	font-size: 17px;
+	color: white;
+}
+
+.btn:hover {
+	color: #AA4465;
+	background-color: white;
+	border: 3px solid #AA4465;
+	transition: color 0,5s ease;
+}
+
+.card_white	{
+	background: white ;
+	padding: 30px;
+	border-radius: 4px;
+	margin:20px 0px;
+	box-shadow: 0px 15px 35px rgba(50,50,93,.1);
+	transition: 1s ease;
+}
+
+.card_white:hover{
+	margin: 40px 20px;
+	padding: 50px;
+	background-color: #E1EFF6;
+
+}
+
+.list-inline {
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.inline {
+	display: inline-block;
+	width: 30%;
+}
+
+.fas{
+	color:#AA4465;
+}
+
+
+#linkedin{
+	color: #150578;
+}
+
+#linkedin:hover{
+	color: #AA4465;
+}
+
+@media (max-width: 960px ) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px ) {
+	.container {
+		width: 500px;
+	}
+	.inline {
+	display: inline;
+	
+	}
+}
+
+@media (max-width: 540px ) {
+	.container {
+		width: 300px;
+	}
+	.btn{
+		font-size: 12px;
+		padding: 13px 8px;
+	}
+
+	.inline {
+	display: inline;
+	
+	}
+	.btn:hover {
+		font-size: 11px;
+		padding:13px 8px;
+}
+}
